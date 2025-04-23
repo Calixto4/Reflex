@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: mi_web  # Nombre de tu app
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "reflex run --host 0.0.0.0 --port 10000"  # Puerto de Render
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.13"  # Usa tu versión de Python
