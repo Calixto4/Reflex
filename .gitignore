@@ -6,6 +6,6 @@ env/
 .venv/
 venv/
 build/
-.pc/
 node_modules/
 .reflex/
+.web/
