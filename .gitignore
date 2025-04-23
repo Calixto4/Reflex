@@ -1,6 +1,11 @@
-*.db
-.web
-assets/external/
 __pycache__/
-*.py[cod]
-.states
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+build/
+.pc/
+node_modules/
+.reflex/
