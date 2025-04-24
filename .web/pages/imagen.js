@@ -9,7 +9,7 @@ import NextHead from "next/head"
 
 
 
-export function Grid_0a7e9681438583ee3c149ce91c75a6c8 () {
+export function Grid_c06742aef2439c4041e1ef55b1e52f0b () {
   
   const reflex___state____state__mi_web___pages___imagen____image_state = useContext(StateContexts.reflex___state____state__mi_web___pages___imagen____image_state)
 
@@ -21,8 +21,8 @@ export function Grid_0a7e9681438583ee3c149ce91c75a6c8 () {
   return (
     <RadixThemesGrid columns={"repeat(auto-fit, minmax(250px, 1fr))"} css={({ ["width"] : "100%" })} gap={"4"}>
 
-<>{ reflex___state____state__mi_web___pages___imagen____image_state.images.map((image_url, index_81a6e2054de31159) => (
-  <RadixThemesDialog.Root key={index_81a6e2054de31159} open={(reflex___state____state__mi_web___pages___imagen____image_state.selected_image === image_url)}>
+<>{ reflex___state____state__mi_web___pages___imagen____image_state.images.map((image_url, index_8eb4e8539f0b3c80) => (
+  <RadixThemesDialog.Root key={index_8eb4e8539f0b3c80} open={(reflex___state____state__mi_web___pages___imagen____image_state.selected_image === image_url)}>
 
 <RadixThemesDialog.Trigger>
 
@@ -88,7 +88,7 @@ export default function Component() {
 
 {"Galer\u00eda de Im\u00e1genes"}
 </RadixThemesHeading>
-<Grid_0a7e9681438583ee3c149ce91c75a6c8/>
+<Grid_c06742aef2439c4041e1ef55b1e52f0b/>
 </RadixThemesBox>
 </RadixThemesBox>
 </RadixThemesFlex>
