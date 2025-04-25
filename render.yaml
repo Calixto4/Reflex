@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: reflex-app
+    env: python
+    plan: free
+    buildCommand: reflex export
+    startCommand: cd .web && gunicorn app:app
+    autoDeploy: true
+    branch: main
